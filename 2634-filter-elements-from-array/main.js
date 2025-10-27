@@ -1,23 +1,4 @@
 
-// 1. Masalani tushunish
-
-// Bizga integer array (arr) berilgan va filtering function (fn) berilgan. Vazifa – bu funksiyadan foydalanib yangi array yaratish, lekin faqatgina fn tomonidan true deb baholangan elementlar qoladi.
-
-// Muhim:
-
-// fn har bir element uchun elementning o‘zi va indeksini olishi mumkin:
-
-// fn(arr[i], i)
-
-
-// Agar fn natijasi truthy bo‘lsa, elementni yangi array-ga qo‘shamiz. Agar falsy bo‘lsa, qo‘shmaymiz.
-
-// Truthy misollar: 1, "text", {}, [], true
-
-// Falsy misollar: 0, "", null, undefined, false, NaN
-
-// Premium masala bo‘lgani uchun sizdan built-in Array.filter ishlatmasdan yechish talab etilgan.
-
 var filter = function(arr, fn) {
 
     //arr1
